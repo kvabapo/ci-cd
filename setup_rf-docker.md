@@ -1,4 +1,4 @@
-# Web Automation: How to setup Python + Selenium+ Robot Framework + Docker + Zalenium
+# Web Automation: How to setup Python + Selenium + Robot Framework + Docker + Zalenium
 
 ## Setup Robot Framework on Mac or Linux
 

@@ -17,8 +17,8 @@ After installing, open a terminal window.
 Type the following:
 
 ```shell
-    which python2 python3. # It should return the path of installation.
-    python --version. # It should return python version.
+which python2 python3. # It should return the path of installation.
+python --version. # It should return python version.
 ```
 
 Close the terminal.
@@ -28,9 +28,9 @@ Close the terminal.
 Type the following:
 
 ```shell
-    brew install python
-    which python2 python3  # It should return the path of installation.
-    python --version  # It should return python version.
+brew install python
+which python2 python3  # It should return the path of installation.
+python --version  # It should return python version.
 ```
 
 NOTE: If the version is not displaying, configure the `PATH`.
@@ -42,6 +42,7 @@ Close the terminal.
 What's pyenv and pipenv?
 
 > pyenv- to install and set different python versions.
+
 > pipenv- to set virtual environments.
 
 If Mac OS,
@@ -54,10 +55,10 @@ use `apt-get` or `yarn` depending on the distro. Just google it to make sure.
 After installation, add these lines to `.bash_profile` file or the `.bash_rc` file. Depending on whatever your OS uses.
 
 ```shell
-    export PYENV_ROOT="$HOME/.pyenv"
-    export PATH="$PYENV_ROOT/bin:$PATH"
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
 
-    eval "$(pyenv init -)"
+eval "$(pyenv init -)"
 ```
 
 Close and open the terminal.
@@ -65,24 +66,24 @@ Close and open the terminal.
 Type the following:
 
 ```shell
-    pyenv versions
-    pyenv install <python version> # to install the version like 3.7.0
-    pyenv global <python version>  # to set the active version
+pyenv versions
+pyenv install <python version> # to install the version like 3.7.0
+pyenv global <python version>  # to set the active version
 ```
 
 Check the installation. 
 Type the following:
 
 ```shell
-    brew install python
-    which python2 python3  # It should return the path of installation.
-    python --version  # It should return python version.
+brew install python
+which python2 python3  # It should return the path of installation.
+python --version  # It should return python version.
 ```
 
 Optional to install:
 
 ```shell
-    pip install pipenv
+pip install pipenv
 ```
 
 ### Install Robot Framework and Selenium
@@ -91,10 +92,10 @@ Open a terminal.
 Type the following:
 
 ```shell
-    pip install selenium
-    pip install robotframework
-    pip install robotframework-seleniumlibrary
-    pip list # It should return a list of installed packages.
+pip install selenium
+pip install robotframework
+pip install robotframework-seleniumlibrary
+pip list # It should return a list of installed packages.
 ```
 
 ## II. Install or update web browsers and web drivers.
